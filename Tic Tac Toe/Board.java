@@ -7,6 +7,11 @@ public class Board {
 	private char p1symbol;
 	private char p2symbol;
 	private int count;
+	final static int Player1wins = 1;
+	final static int Player2wins = 2;
+	final static int Draw = 3;
+	final static int Incomplete = 4;
+	final static int Invalid = 5;
 	
 	public Board(char p1symbol, char p2symbol) {
 		this.p1symbol = p1symbol;
